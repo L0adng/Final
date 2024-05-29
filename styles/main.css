@@ -11,10 +11,8 @@ body {
     font-size: 100%;
     width: 800px;
     margin: 0 auto;
-    border: 10px solid #931420;
-    background-color: #fffded;
-    border-style: solid;
-    border-color: black;
+    border: 10px solid black;
+    background-color: white;
 }
 
 #nav_menu ul {
