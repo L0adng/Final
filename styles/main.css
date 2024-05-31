@@ -58,13 +58,6 @@ main {
 	clear: left;
 }
 
-aside img {
-	transition: transform 2s;
-}
-aside img:hover {
-	transform: translate(100px,20px);
-}
-
 aside {
 	width: 215px;
 	float: right;
@@ -82,4 +75,11 @@ aside h3 {
 }
 aside img {
 	padding-bottom: 1em;
+}
+
+aside img {
+	transition: transform 2s;
+}
+aside img:hover {
+	transform: translate(100px,20px);
 }
