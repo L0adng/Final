@@ -54,9 +54,45 @@ body {
     display: block;
 }
 
+main {
+	clear: left;
+}
+
+article {
+	padding: .5em 0;
+	border-top: 2px solid black;
+	border-bottom: 2px solid green;
+}
+article h2 {
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+
 aside img {
 	transition: transform 2s;
 }
 aside img:hover {
 	transform: translate(100px,20px);
+}
+
+aside {
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
+}
+aside h2 {
+	color: black;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside img {
+	padding-bottom: 1em;
 }
