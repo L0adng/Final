@@ -66,8 +66,19 @@ aside img:hover {
 }
 
 aside {
-    width: 215px;
-    float: left;
+	width: 215px;
+	float: right;
+	padding: 0 0 20px 20px;
+}
+aside h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
 }
 aside img {
 	padding-bottom: 1em;
