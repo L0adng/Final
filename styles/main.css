@@ -54,10 +54,6 @@ body {
     display: block;
 }
 
-main {
-	clear: left;
-}
-
 aside {
     width: 215px;
     float: left;
