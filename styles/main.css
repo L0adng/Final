@@ -17,19 +17,19 @@ body {
 
 header {
 	padding: 1.5em 0 2em 0;
-	border-bottom: 3px solid #931420;
+	border-bottom: 3px solid white;
 		background-image: -moz-linear-gradient(
-	    30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	    30deg, white 0%, white 30%, white 50%, white 80%, white 100%);
 	background-image: -webkit-linear-gradient(
-	    30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
+	    30deg, white 0%, #fffded 30%, white 50%, #fffded 80%, white 100%);
 	background-image: -o-linear-gradient(
-	    30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
+	    30deg, white 0%, white 30%, white 50%, #fffded 80%, white 100%);
 	background-image: linear-gradient(
-	    30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
+	    30deg, white 0%, white 30%, white 50%, #fffded 80%, white 100%);
 }
 header h2 {
 	font-size: 175%;
-	color: #800000;
+	color: green;
 }
 header h3 {
 	font-size: 130%;
@@ -86,7 +86,7 @@ section h1 {
 	margin: 0;
 }
 section h2 {
-	color: #800000;
+	color: white;
 	font-size: 130%;
 	padding: .5em 0 .25em 0;
 }
