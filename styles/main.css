@@ -141,27 +141,23 @@ article img {
 
 /* the styles for the aside */
 aside {
-	width: 215px;
-	float: right;
-	padding: 0 0 20px 20px;
-}
-aside h2 {
-	color: green;
-	font-size: 130%;
-	padding: .5em 0 .25em 0;
-}
-
-aside h3 {
-	font-size: 105%;
-	padding-bottom: .25em;
+    width: 215px;
+    float: left;
 }
 aside img {
 	padding-bottom: 1em;
 }
 
+aside img {
+	transition: transform 2s;
+}
+aside img:hover {
+	transform: translate(100px,20px);
+}
+
 /* the styles for the footer */
 footer {
-	background-color: #931420;
+	background-color: black;
 	clear: both;
 
 }
