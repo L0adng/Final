@@ -20,7 +20,7 @@ a:focus, a:hover {
 
 header {
 	padding: 1.5em 0 2em 0;
-	border-bottom: 3px solid white;
+	border-bottom: 3px solid black;
 		background-image: -moz-linear-gradient(
 	    30deg, white 0%, white 30%, white 50%, white 80%, white 100%);
 	background-image: -webkit-linear-gradient(
