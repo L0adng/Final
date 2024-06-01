@@ -75,6 +75,10 @@ header h3 {
     display: block;
 }
 
+main {
+	clear: left;
+}
+
 section {
 	width: 525px;
 	float: right;
@@ -103,6 +107,24 @@ section ul {
 }
 section li {
 	padding-bottom: .35em;
+}
+
+article {
+	padding: .5em 0;
+	border-top: 2px solid green;
+	border-bottom: 2px solid green;
+}
+article h2 {
+	padding-top: 0;
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+article img {
+	float: right;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
 }
 
 aside {
