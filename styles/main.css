@@ -38,6 +38,9 @@ header h3 {
 	font-size: 130%;
 	font-style: italic;
 }
+.shadow {
+	text-shadow: 2px 2px 2px #800000;
+}
 
 #nav_menu ul {
 	list-style-type: none;
